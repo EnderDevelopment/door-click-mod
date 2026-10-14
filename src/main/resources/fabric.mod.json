@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "doorclickmod",
+  "version": "1.0.0",
+  "name": "Door Click Mod",
+  "description": "A mod that gives you a random item when you click on doors multiple times.",
+  "authors": ["MillerOskar35"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.milleroskar35.doorclickmod.DoorClickMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.3",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}
